@@ -1,14 +1,194 @@
 :root {
   --color-primary: #707070;
   --color-primary-light: #8c8c8c;
-  --color-secondary: #fff;
   --color-accent-blue: #00d0ff;
   --color-accent-light-blue: #40dcff;
-  --color-neutral: #000;
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Orbitron", sans-serif;
+  --font-color-primary: #000;
+  --font-weight-primary: normal;
+  --font-weight-secondary: bold;
+  --font-style-primary: normal;
+  --font-style-secondary: italic;
+  --text-transform-primary: capitalize;
+  --text-decoration-primary: line-through;
+  --text-decoration-secondary: underline;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+h2 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+h3 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+h4 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+h5 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+h6 {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+ul {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+ol {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+dl {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+a {
+  color: var(--color-accent-blue);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+blockquote {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+cite {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-secondary);
+  font-family: var(--font-primary);
+}
+
+em {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-secondary);
+  font-family: var(--font-primary);
+}
+
+strong {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+del {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+  text-decoration: var(--text-decoration-primary);
+}
+
+ins {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+  text-decoration: var(--text-decoration-secondary);
+}
+
+abbr {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+  text-transform: var(--text-transform-primary);
+}
+
+dfn {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-secondary);
+  font-family: var(--font-primary);
+}
+
+i {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-secondary);
+  font-family: var(--font-primary);
+}
+
+b {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-secondary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+mark {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+  background-color: var(--color-accent-blue);
+}
+
+q {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+}
+
+s {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+  text-decoration: var(--text-decoration-primary);
+}
+
+u {
+  color: var(--font-color-primary);
+  font-weight: var(--font-weight-primary);
+  font-style: var(--font-style-primary);
+  font-family: var(--font-primary);
+  text-decoration: var(--text-decoration-secondary);
 }
