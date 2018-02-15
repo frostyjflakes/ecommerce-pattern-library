@@ -14,4 +14,4 @@ fonts:
     The neutral colours are black, white and grey. Their real purpose is for body copy, captions, tables, etc.
 ---
 
-Fidget was created to help people overcome their bad tendencies (fidgeting). Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more. Check out our e-commerce website today!
+Fidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!
