@@ -19,3 +19,10 @@
 
   color: var(--color-primary);
 }
+
+.btn-colour {
+  background-color: var(--color-accent-blue);
+  border-color: var(--color-accent-blue);
+
+  color: #fff;
+}
