@@ -1,12 +1,13 @@
 :root {
-  --color-primary: #707070;
-  --color-primary-light: #8c8c8c;
-  --color-accent-blue: #00d0ff;
-  --color-accent-light-blue: #40dcff;
-  --color-background: #000;
+  --color-primary: #404040;
+  --color-primary-light: #707070;
+  --color-accent-red: #d52d3e;
+  --color-accent-green: #98d75c;
+  --color-background: #fff;
   --font-primary: "Open Sans", sans-serif;
   --font-secondary: "Orbitron", sans-serif;
-  --font-color-primary: #000;
+  --font-color-primary: #fff;
+  --font-color-secondary: #404040;
   --font-weight-primary: normal;
   --font-weight-secondary: bold;
   --font-style-primary: normal;
@@ -192,4 +193,80 @@ u {
   font-style: var(--font-style-primary);
   font-family: var(--font-primary);
   text-decoration: var(--text-decoration-secondary);
+}
+
+.btn {
+  font-weight: var(--font-weight-secondary);
+  background-color: var(--color-accent-red);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.btn:hover {
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-accent-red);
+  background-color: var(--font-color-primary);
+  border-color: var(--color-accent-red);
+  border-radius: 10px;
+}
+
+.btn-light {
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-accent-red);
+  background-color: var(--font-color-primary);
+  border-color: var(--color-accent-red);
+  border-radius: 10px;
+}
+
+.btn-light:hover {
+  font-weight: var(--font-weight-secondary);
+  color: var(--font-color-primary);
+  background-color: var(--color-accent-red);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.btn-ghost {
+  font-weight: var(--font-weight-secondary);
+  color: var(--font-color-primary);
+  background-color: transparent;
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.btn-ghost:hover {
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-accent-red);
+  background-color: transparent;
+  border-color: var(--color-accent-red);
+  border-radius: 10px;
+}
+
+.btn-no {
+  font-weight: var(--font-weight-secondary);
+  background-color: var(--color-accent-red);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.btn-no:hover {
+  font-weight: var(--font-weight-secondary);
+  background-color: var(--color-primary-light);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.btn-yes {
+  font-weight: var(--font-weight-secondary);
+  color: var(--font-color-primary);
+  background-color: var(--color-accent-green);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.btn-yes:hover {
+  font-weight: var(--font-weight-secondary);
+  background-color: var(--color-primary-light);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
 }

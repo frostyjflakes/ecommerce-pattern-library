@@ -1,9 +1,5 @@
-.banner {
+html {
   background-image: linear-gradient(25deg, var(--color-primary) 50%, var(--color-primary-light) 50%);
   background-repeat: no-repeat;
-  color: #fff;
-}
-
-h1 {
-  color: #fff;
+  color: var(--font-color-primary);
 }

@@ -1,6 +1,6 @@
-The buttons use our primary colour to draw attention and stand out. Each button has a specific purpose:
-- The regular buttons are for cards, forms and where the background is a light colour
-- The light buttons are for dark background areas
-- The ghost buttons should be used exclusively on banners where the background is an image
-
-Feel free to mix them with the 'font-size' classes to make different sizes of buttons.
+The buttons use our accent red colour to create contrast between the black and white images and the coloured elements.
+- The standard buttons are for banners, cards, forms and pages and where the background is a dark colour
+- The light buttons are for light background areas
+- The ghost buttons shouldn't be used on banners where the background is an image
+- The no buttons are for actions like cancel
+- The yes buttons are for actions like next and submit

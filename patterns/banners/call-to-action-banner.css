@@ -1,17 +1,18 @@
-.banner {
-  background-image: linear-gradient(25deg, var(--color-accent-blue) 50%, var(--color-accent-light-blue) 50%);
-  background-repeat: no-repeat;
-  color: #fff;
-}
-
-h1 {
-  color: #fff;
+p {
+  color: var(--font-color-primary);
 }
 
 .btn {
   font-weight: var(--font-weight-secondary);
+  background-color: var(--color-accent-red);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
 }
 
-img {
-  width: 350px;
+.btn:hover {
+  font-weight: var(--font-weight-secondary);
+  color: var(--color-accent-red);
+  background-color: var(--font-color-primary);
+  border-color: var(--color-accent-red);
+  border-radius: 10px;
 }
