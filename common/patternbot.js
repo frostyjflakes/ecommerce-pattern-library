@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library
- * @version 1523504741398
+ * @version 1523509369261
  */
-const patternManifest_1523504741397 = {
+const patternManifest_1523509369260 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -496,9 +496,9 @@ const patternManifest_1523504741397 = {
           {
             "name": "--color-background",
             "namePretty": "Background",
-            "raw": "#fff",
-            "hex": "#fff",
-            "rgba": "rgba(255, 255, 255, 1)"
+            "raw": "#404040",
+            "hex": "#404040",
+            "rgba": "rgba(64, 64, 64, 1)"
           }
         ]
       },
@@ -607,7 +607,7 @@ const patternManifest_1523504741397 = {
         "--color-primary-light": "#707070",
         "--color-accent-red": "#d52d3e",
         "--color-accent-green": "#98d75c",
-        "--color-background": "#fff"
+        "--color-background": "#404040"
       },
       "fontsRaw": {
         "--font-primary": "\"Open Sans\", sans-serif",
@@ -634,13 +634,19 @@ const patternManifest_1523504741397 = {
       "bodyBasic": "Fidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!"
     },
     "icons": [
-      "twitter-1",
-      "toggle-nav-hamburger-1",
-      "toggle-nav-close-1",
-      "shopping-cart-1",
-      "search-1",
+      "facebook-1",
+      "cancel-1",
+      "fidget-chain-1",
+      "fidget-cube-1",
+      "fidget-spinner-1",
       "instagram-1",
-      "facebook-1"
+      "next-1",
+      "search-1",
+      "shopping-cart-1",
+      "submit-1",
+      "toggle-nav-close-1",
+      "toggle-nav-hamburger-1",
+      "twitter-1"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -1151,5 +1157,5 @@ const patternManifest_1523504741397 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523504741397);
+patternBotIncludes(patternManifest_1523509369260);
 }());
