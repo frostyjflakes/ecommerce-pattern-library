@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library
- * @version 1523509369261
+ * @version 1523887233670
  */
-const patternManifest_1523509369260 = {
+const patternManifest_1523887233670 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -630,22 +630,25 @@ const patternManifest_1523509369260 = {
           "opposite": 255
         }
       },
-      "bodyRaw": "\nFidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!\n",
-      "bodyBasic": "Fidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!"
+      "bodyRaw": "\nFidget was created to help people overcome their bad tendencies. Since the Fidget Spinner was released, we've expanded our selection to Fidget Cubes and Accessories.\n",
+      "bodyBasic": "Fidget was created to help people overcome their bad tendencies. Since the Fidget Spinner was released, we've expanded our selection to Fidget Cubes and Accessories."
     },
     "icons": [
-      "facebook-1",
-      "cancel-1",
-      "fidget-chain-1",
+      "accessory-1",
       "fidget-cube-1",
       "fidget-spinner-1",
+      "cancel-1",
       "instagram-1",
+      "logo-16",
+      "logo-32",
+      "logo-64",
       "next-1",
+      "logo-256",
       "search-1",
       "shopping-cart-1",
       "submit-1",
-      "toggle-nav-close-1",
       "toggle-nav-hamburger-1",
+      "toggle-nav-close-1",
       "twitter-1"
     ],
     "interfaceColours": {
@@ -830,8 +833,7 @@ const patternManifest_1523509369260 = {
           "namePretty": "Basic card",
           "filename": "basic-card",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/basic-card.html",
-          "localPath": "patterns/cards/basic-card.html",
-          "readme": {}
+          "localPath": "patterns/cards/basic-card.html"
         },
         {
           "name": "fidget-chains-icon-card",
@@ -841,11 +843,25 @@ const patternManifest_1523509369260 = {
           "localPath": "patterns/cards/fidget-chains-icon-card.html"
         },
         {
+          "name": "fidget-chains-info-card",
+          "namePretty": "Fidget chains info card",
+          "filename": "fidget-chains-info-card",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-chains-info-card.html",
+          "localPath": "patterns/cards/fidget-chains-info-card.html"
+        },
+        {
           "name": "fidget-cubes-icon-card",
           "namePretty": "Fidget cubes icon card",
           "filename": "fidget-cubes-icon-card",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-cubes-icon-card.html",
           "localPath": "patterns/cards/fidget-cubes-icon-card.html"
+        },
+        {
+          "name": "fidget-cubes-info-card",
+          "namePretty": "Fidget cubes info card",
+          "filename": "fidget-cubes-info-card",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-cubes-info-card.html",
+          "localPath": "patterns/cards/fidget-cubes-info-card.html"
         },
         {
           "name": "fidget-spinners-icon-card",
@@ -855,14 +871,18 @@ const patternManifest_1523509369260 = {
           "localPath": "patterns/cards/fidget-spinners-icon-card.html"
         },
         {
+          "name": "fidget-spinners-info-card",
+          "namePretty": "Fidget spinners info card",
+          "filename": "fidget-spinners-info-card",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-spinners-info-card.html",
+          "localPath": "patterns/cards/fidget-spinners-info-card.html"
+        },
+        {
           "name": "product-info-card",
           "namePretty": "Product info card",
           "filename": "product-info-card",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/product-info-card.html",
-          "localPath": "patterns/cards/product-info-card.html",
-          "readme": {
-            "width": 300
-          }
+          "localPath": "patterns/cards/product-info-card.html"
         }
       ],
       "md": [
@@ -881,13 +901,6 @@ const patternManifest_1523509369260 = {
           "filename": "cards",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
-        },
-        {
-          "name": "product-info-card",
-          "namePretty": "Product info card",
-          "filename": "product-info-card",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/product-info-card.css",
-          "localPath": "patterns/cards/product-info-card.css"
         }
       ]
     },
@@ -1064,6 +1077,13 @@ const patternManifest_1523509369260 = {
           "localPath": "patterns/pages/homepage.html"
         },
         {
+          "name": "product-details-page",
+          "namePretty": "Product details page",
+          "filename": "product-details-page",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/product-details-page.html",
+          "localPath": "patterns/pages/product-details-page.html"
+        },
+        {
           "name": "product-list-page",
           "namePretty": "Product list page",
           "filename": "product-list-page",
@@ -1094,6 +1114,13 @@ const patternManifest_1523509369260 = {
           "filename": "homepage",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/homepage.css",
           "localPath": "patterns/pages/homepage.css"
+        },
+        {
+          "name": "product-details-page",
+          "namePretty": "Product details page",
+          "filename": "product-details-page",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/product-details-page.css",
+          "localPath": "patterns/pages/product-details-page.css"
         },
         {
           "name": "product-list-page",
@@ -1157,5 +1184,5 @@ const patternManifest_1523509369260 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523509369260);
+patternBotIncludes(patternManifest_1523887233670);
 }());

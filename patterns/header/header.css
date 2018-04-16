@@ -9,14 +9,13 @@ header {
   position: absolute;
 }
 
-.nav a {
-  display: block;
+a {
+  color: var(--font-color-secondary);
   text-decoration: none;
-  color: var(--color-primary);
 }
 
-.nav a:hover {
-  color: var(--color-accent-blue);
+a:hover {
+  color: var(--color-accent-red);
 }
 
 .nav-check:checked ~ .nav {
@@ -33,11 +32,15 @@ header {
   position: absolute;
 }
 
+i {
+
+}
+
 .nav-check:checked ~ .nav-label {
   background-color: var(--color-accent-blue);
 }
 
-@media only screen and (min-width: 28em) {
+@media only screen and (min-width: 25em) {
 
   .nav {
     width: 100%;
@@ -50,19 +53,15 @@ header {
 
 }
 
-@media only screen and (min-width: 35em) {
-
-  header {
-    padding-bottom: 0;
-  }
+@media only screen and (min-width: 38em) {
 
   .nav-check,
   .nav-open {
-    display: none;
+    display:
   }
 
   .nav {
-    display: block;
+    display: inline-block;
     position: static;
   }
 
@@ -72,8 +71,10 @@ header {
     display: inline-block;
   }
 
-  .top-icons {
-    display: hidden;
-  }
+@media only screen and (min-width: 60em) {
+
+
+
+@media only screen and (min-width: 90em) {
 
 }
