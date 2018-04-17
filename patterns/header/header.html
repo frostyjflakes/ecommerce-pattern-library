@@ -14,26 +14,28 @@
 <body>
 
   <header class="pad-t pad-b">
-    <h1 class="push-0">
+    <h1 class="push-0 text-center">
       <i class="icon i-256">
         <svg><use xlink:href="../../images/icons.svg#logo-256"/></svg>
       </i>
     </h1>
-    <div class="header inline">
+    <div class="header">
       <input type="checkbox" class="nav-check" id="nav-check">
-      <label class="hide-custom-input nav-label" for="nav-check">
-        <i class="nav-open icon i-64">
-          <svg><use xlink:href="../../images/icons.svg#toggle-nav-hamburger-1"/></svg>
-        </i>
-        <i class="nav-close icon i-64">
-          <svg><use xlink:href="../../images/icons.svg#toggle-nav-close-1"/></svg>
-        </i>
-      </label>
-      <nav class="nav">
+      <div class="toggle-btn relative gutter">
+        <label class="hide-custom-input nav-label absolute icon i-64 pin-c" for="nav-check">
+          <i class="nav-open icon i-64 absolute pin-c">
+            <svg><use xlink:href="../../images/icons.svg#toggle-nav-hamburger-1"/></svg>
+          </i>
+          <i class="nav-close icon i-64 absolute pin-c">
+            <svg><use xlink:href="../../images/icons.svg#toggle-nav-close-1"/></svg>
+          </i>
+        </label>
+      </div>
+      <nav class="nav text-center">
         <ul class="list-group">
-          <li class="gutter"><a href="#">Home</a></li>
-          <li><a href="#">Products</a></li>
-          <li class="gutter"><a href="#">Checkout</a></li>
+          <li class="island-1-4"><a href="#">Home</a></li>
+          <li class="island-1-4"><a href="#">Products</a></li>
+          <li class="island-1-4"><a href="#">Checkout</a></li>
         </ul>
       </nav>
     </div>

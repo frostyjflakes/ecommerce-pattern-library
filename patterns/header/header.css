@@ -1,12 +1,6 @@
-header {
-  text-align: center;
-  position: relative;
-}
 
-.nav {
-  list-style-type: none;
-  display: none;
-  position: absolute;
+.nav-check:checked ~ .nav-label {
+  background-color: var(--color-accent-blue);
 }
 
 a {
@@ -18,60 +12,48 @@ a:hover {
   color: var(--color-accent-red);
 }
 
-.nav-check:checked ~ .nav {
-  display: block;
-}
-
-.nav-check {
-  position: absolute;
+.nav {
+  display: none;
 }
 
 .nav-label {
-  width: 40px;
-  display: inline-block;
-  position: absolute;
+  top: -100px;
 }
 
-i {
-
+#nav-check:checked ~ .nav {
+  display: block;
 }
 
-.nav-check:checked ~ .nav-label {
-  background-color: var(--color-accent-blue);
+.nav-close {
+  display: none;
 }
 
-@media only screen and (min-width: 25em) {
+#nav-check:checked ~ .toggle-btn .nav-open {
+  display: none;
+}
 
-  .nav {
-    width: 100%;
-  }
-
-  .nav li {
-    float: left;
-    width: 50%;
-  }
-
+#nav-check:checked ~ .toggle-btn .nav-close {
+  display: block;
 }
 
 @media only screen and (min-width: 38em) {
 
   .nav-check,
-  .nav-open {
-    display:
+  .nav-open,
+  .nav-close {
+    display: none;
   }
 
   .nav {
-    display: inline-block;
-    position: static;
+    display: block;
   }
 
-  .nav li {
-    float: none;
-    width: auto;
+  .nav ul li {
     display: inline-block;
   }
 
 @media only screen and (min-width: 60em) {
+
 
 
 

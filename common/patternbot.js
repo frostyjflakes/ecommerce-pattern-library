@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library
- * @version 1523888432226
+ * @version 1523979009822
  */
-const patternManifest_1523888432226 = {
+const patternManifest_1523979009822 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -829,25 +829,25 @@ const patternManifest_1523888432226 = {
       "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
+          "name": "accessories-icon-card",
+          "namePretty": "Accessories icon card",
+          "filename": "accessories-icon-card",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/accessories-icon-card.html",
+          "localPath": "patterns/cards/accessories-icon-card.html"
+        },
+        {
+          "name": "accessories-info-card",
+          "namePretty": "Accessories info card",
+          "filename": "accessories-info-card",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/accessories-info-card.html",
+          "localPath": "patterns/cards/accessories-info-card.html"
+        },
+        {
           "name": "basic-card",
           "namePretty": "Basic card",
           "filename": "basic-card",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/basic-card.html",
           "localPath": "patterns/cards/basic-card.html"
-        },
-        {
-          "name": "fidget-chains-icon-card",
-          "namePretty": "Fidget chains icon card",
-          "filename": "fidget-chains-icon-card",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-chains-icon-card.html",
-          "localPath": "patterns/cards/fidget-chains-icon-card.html"
-        },
-        {
-          "name": "fidget-chains-info-card",
-          "namePretty": "Fidget chains info card",
-          "filename": "fidget-chains-info-card",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-chains-info-card.html",
-          "localPath": "patterns/cards/fidget-chains-info-card.html"
         },
         {
           "name": "fidget-cubes-icon-card",
@@ -946,35 +946,75 @@ const patternManifest_1523888432226 = {
           "namePretty": "Checkboxes",
           "filename": "checkboxes",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/checkboxes.html",
-          "localPath": "patterns/forms/checkboxes.html"
+          "localPath": "patterns/forms/checkboxes.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "drop-downs",
           "namePretty": "Drop downs",
           "filename": "drop-downs",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/drop-downs.html",
-          "localPath": "patterns/forms/drop-downs.html"
+          "localPath": "patterns/forms/drop-downs.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "email-inputs",
           "namePretty": "Email inputs",
           "filename": "email-inputs",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/email-inputs.html",
-          "localPath": "patterns/forms/email-inputs.html"
+          "localPath": "patterns/forms/email-inputs.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
           "filename": "radio-buttons",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
-          "localPath": "patterns/forms/radio-buttons.html"
+          "localPath": "patterns/forms/radio-buttons.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "text-areas",
           "namePretty": "Text areas",
           "filename": "text-areas",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/text-areas.html",
-          "localPath": "patterns/forms/text-areas.html"
+          "localPath": "patterns/forms/text-areas.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "text-inputs",
@@ -1184,5 +1224,5 @@ const patternManifest_1523888432226 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523888432226);
+patternBotIncludes(patternManifest_1523979009822);
 }());
