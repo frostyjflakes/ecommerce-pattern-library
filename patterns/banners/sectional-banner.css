@@ -1,4 +1,4 @@
 h1 {
-  color: var(--font-color-secondary);
-  background-color: var(--color-background);
+  color: var(--color-primary);
+  background-color: var(--font-color-primary);
 }

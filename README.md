@@ -3,18 +3,23 @@ name: "Fidget"
 fontUrl: "https://fonts.googleapis.com/css?family=Open+Sans|Orbitron"
 fonts:
   primary: |
-    The primary typeface...
+    The primary typeface is a regular and bold sans serif font that balances out the secondary font.
 
-    Use the primary typeface for...
+    The primary font should be used everywhere, except for the logo.
   secondary: |
-    The secondary typeface is a compressed sans serif that really shows technological advancement over our domain.
+    The secondary typeface is a compressed sans serif that shows off the technological advancements that the industry has made.
 
     The secondary typeface should only be used for the logo.
-  neutral: |
-    The neutral colours are black, white and grey. Their real purpose is for body copy, captions, tables, etc.
 colours:
   primary: |
-    Bla
+    The primary colours are the dark and light grey of the Fidget Cube.
+
+    They're also neutral colours so the background will go with anything.
+
+  accent: |
+    The accent colours are red and green.
+
+    It was first inspired by the call to action banner image.
 ---
 
-Fidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!
+Fidget was created to help people overcome their bad tendencies. Since the Fidget Spinner was released, we've expanded our selection to Fidget Cubes and Accessories.

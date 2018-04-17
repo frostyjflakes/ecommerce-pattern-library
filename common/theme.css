@@ -270,3 +270,23 @@ u {
   border-color: var(--font-color-primary);
   border-radius: 10px;
 }
+
+.basic-card {
+  font-weight: var(--font-weight-secondary);
+  color: var(--font-color-primary);
+  background-color: var(--color-primary-light);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.icon-card {
+  font-weight: var(--font-weight-secondary);
+  color: var(--font-color-primary);
+  background-color: var(--color-accent-red);
+  border-color: var(--font-color-primary);
+  border-radius: 10px;
+}
+
+.info-card {
+
+}

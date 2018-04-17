@@ -1,12 +1,16 @@
 ---
 basic-card: |
   The basic card should only be for information, it could include a button, but is never a link itself.
-icon-card: |
-  The icon card is generally used for calls-t-action on the homepage or highlights on inside pages.
-product-info-card:
-  width: 300
-  desc: |
-    Bla
+checkboxes:
+  background-color: "var(--color-primary)"
+drop-downs:
+  background-color: "var(--color-primary)"
+email-inputs:
+  background-color: "var(--color-primary)"
+radio-buttons:
+  background-color: "var(--color-primary)"
+text-areas:
+  background-color: "var(--color-primary)"
 text-inputs:
   background-color: "var(--color-primary)"
 ---

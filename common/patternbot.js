@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library
- * @version 1523979363941
+ * @version 1523979478625
  */
-const patternManifest_1523979363941 = {
+const patternManifest_1523979478625 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -630,22 +630,25 @@ const patternManifest_1523979363941 = {
           "opposite": 255
         }
       },
-      "bodyRaw": "\nFidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!\n",
-      "bodyBasic": "Fidget was created to help people overcome this bad habit. Since the Fidget Spinner was released, we've expanded our selection of tools. This includes the Fidget Cube, the Fidget Stick and much more!"
+      "bodyRaw": "\nFidget was created to help people overcome their bad tendencies. Since the Fidget Spinner was released, we've expanded our selection to Fidget Cubes and Accessories.\n",
+      "bodyBasic": "Fidget was created to help people overcome their bad tendencies. Since the Fidget Spinner was released, we've expanded our selection to Fidget Cubes and Accessories."
     },
     "icons": [
-      "facebook-1",
-      "cancel-1",
-      "fidget-chain-1",
+      "accessory-1",
       "fidget-cube-1",
       "fidget-spinner-1",
+      "cancel-1",
       "instagram-1",
+      "logo-16",
+      "logo-32",
+      "logo-64",
       "next-1",
+      "logo-256",
       "search-1",
       "shopping-cart-1",
       "submit-1",
-      "toggle-nav-close-1",
       "toggle-nav-hamburger-1",
+      "toggle-nav-close-1",
       "twitter-1"
     ],
     "interfaceColours": {
@@ -680,6 +683,7 @@ const patternManifest_1523979363941 = {
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/footer",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/forms",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/header",
+      "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/pages",
       "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/photo-arrays"
     ],
     "pages": [
@@ -846,19 +850,25 @@ const patternManifest_1523979363941 = {
       "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards",
       "html": [
         {
+          "name": "accessories-icon-card",
+          "namePretty": "Accessories icon card",
+          "filename": "accessories-icon-card",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/accessories-icon-card.html",
+          "localPath": "patterns/cards/accessories-icon-card.html"
+        },
+        {
+          "name": "accessories-info-card",
+          "namePretty": "Accessories info card",
+          "filename": "accessories-info-card",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/accessories-info-card.html",
+          "localPath": "patterns/cards/accessories-info-card.html"
+        },
+        {
           "name": "basic-card",
           "namePretty": "Basic card",
           "filename": "basic-card",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/basic-card.html",
-          "localPath": "patterns/cards/basic-card.html",
-          "readme": {}
-        },
-        {
-          "name": "fidget-chains-icon-card",
-          "namePretty": "Fidget chains icon card",
-          "filename": "fidget-chains-icon-card",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/fidget-chains-icon-card.html",
-          "localPath": "patterns/cards/fidget-chains-icon-card.html"
+          "localPath": "patterns/cards/basic-card.html"
         },
         {
           "name": "fidget-cubes-icon-card",
@@ -868,6 +878,13 @@ const patternManifest_1523979363941 = {
           "localPath": "patterns/cards/fidget-cubes-icon-card.html"
         },
         {
+          "name": "fidget-cubes-info-card",
+          "namePretty": "Fidget cubes info card",
+          "filename": "fidget-cubes-info-card",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/fidget-cubes-info-card.html",
+          "localPath": "patterns/cards/fidget-cubes-info-card.html"
+        },
+        {
           "name": "fidget-spinners-icon-card",
           "namePretty": "Fidget spinners icon card",
           "filename": "fidget-spinners-icon-card",
@@ -875,14 +892,18 @@ const patternManifest_1523979363941 = {
           "localPath": "patterns/cards/fidget-spinners-icon-card.html"
         },
         {
+          "name": "fidget-spinners-info-card",
+          "namePretty": "Fidget spinners info card",
+          "filename": "fidget-spinners-info-card",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/fidget-spinners-info-card.html",
+          "localPath": "patterns/cards/fidget-spinners-info-card.html"
+        },
+        {
           "name": "product-info-card",
           "namePretty": "Product info card",
           "filename": "product-info-card",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/product-info-card.html",
-          "localPath": "patterns/cards/product-info-card.html",
-          "readme": {
-            "width": 300
-          }
+          "localPath": "patterns/cards/product-info-card.html"
         }
       ],
       "md": [
@@ -901,13 +922,6 @@ const patternManifest_1523979363941 = {
           "filename": "cards",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/cards.css",
           "localPath": "patterns/cards/cards.css"
-        },
-        {
-          "name": "product-info-card",
-          "namePretty": "Product info card",
-          "filename": "product-info-card",
-          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/cards/product-info-card.css",
-          "localPath": "patterns/cards/product-info-card.css"
         }
       ]
     },
@@ -953,35 +967,75 @@ const patternManifest_1523979363941 = {
           "namePretty": "Checkboxes",
           "filename": "checkboxes",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/forms/checkboxes.html",
-          "localPath": "patterns/forms/checkboxes.html"
+          "localPath": "patterns/forms/checkboxes.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "drop-downs",
           "namePretty": "Drop downs",
           "filename": "drop-downs",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/forms/drop-downs.html",
-          "localPath": "patterns/forms/drop-downs.html"
+          "localPath": "patterns/forms/drop-downs.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "email-inputs",
           "namePretty": "Email inputs",
           "filename": "email-inputs",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/forms/email-inputs.html",
-          "localPath": "patterns/forms/email-inputs.html"
+          "localPath": "patterns/forms/email-inputs.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
           "filename": "radio-buttons",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
-          "localPath": "patterns/forms/radio-buttons.html"
+          "localPath": "patterns/forms/radio-buttons.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "text-areas",
           "namePretty": "Text areas",
           "filename": "text-areas",
           "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/forms/text-areas.html",
-          "localPath": "patterns/forms/text-areas.html"
+          "localPath": "patterns/forms/text-areas.html",
+          "readme": {
+            "background-color": "var(--color-primary)",
+            "backgroundColour": "#404040",
+            "interfaceColours": {
+              "primary": 255,
+              "opposite": 0
+            }
+          }
         },
         {
           "name": "text-inputs",
@@ -1065,6 +1119,30 @@ const patternManifest_1523979363941 = {
       ]
     },
     {
+      "name": "pages",
+      "namePretty": "Pages",
+      "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/pages",
+      "html": [
+        {
+          "name": "product-details-page",
+          "namePretty": "Product details page",
+          "filename": "product-details-page",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/pages/product-details-page.html",
+          "localPath": "patterns/pages/product-details-page.html"
+        }
+      ],
+      "md": [],
+      "css": [
+        {
+          "name": "product-details-page",
+          "namePretty": "Product details page",
+          "filename": "product-details-page",
+          "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/pages/product-details-page.css",
+          "localPath": "patterns/pages/product-details-page.css"
+        }
+      ]
+    },
+    {
       "name": "photo-arrays",
       "namePretty": "Photo arrays",
       "path": "/Users/kelzinha_alves/Dropbox/ALGONQUIN/4th Semester/2 Web Dev IV/week 12/ecommerce-pattern-library/patterns/photo-arrays",
@@ -1117,5 +1195,5 @@ const patternManifest_1523979363941 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523979363941);
+patternBotIncludes(patternManifest_1523979478625);
 }());
