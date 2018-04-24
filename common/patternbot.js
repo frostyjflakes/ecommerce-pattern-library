@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library
- * @version 1524588829862
+ * @version 1524590123092
  */
-const patternManifest_1524588829861 = {
+const patternManifest_1524590123091 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -1023,20 +1023,6 @@ const patternManifest_1524588829861 = {
           "filename": "forms",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/forms.css",
           "localPath": "patterns/forms/forms.css"
-        },
-        {
-          "name": "modules",
-          "namePretty": "Modules",
-          "filename": "modules",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/modules.css",
-          "localPath": "patterns/forms/modules.css"
-        },
-        {
-          "name": "type",
-          "namePretty": "Type",
-          "filename": "type",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/type.css",
-          "localPath": "patterns/forms/type.css"
         }
       ]
     },
@@ -1125,5 +1111,5 @@ const patternManifest_1524588829861 = {
   }
 };
 
-patternBotIncludes(patternManifest_1524588829861);
+patternBotIncludes(patternManifest_1524590123091);
 }());
