@@ -388,9 +388,9 @@ const patternBotIncludes = function (manifest) {
 /** 
  * Patternbot library manifest
  * /Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library
- * @version 1523980196768
+ * @version 1524588829862
  */
-const patternManifest_1523980196768 = {
+const patternManifest_1524588829861 = {
   "commonInfo": {
     "modulifier": [
       "responsive",
@@ -634,22 +634,23 @@ const patternManifest_1523980196768 = {
       "bodyBasic": "Fidget was created to help people overcome their bad tendencies. Since the Fidget Spinner was released, we've expanded our selection to Fidget Cubes and Accessories."
     },
     "icons": [
-      "accessory-1",
-      "fidget-cube-1",
-      "fidget-spinner-1",
       "cancel-1",
+      "accessory-1",
+      "facebook-1",
+      "fidget-spinner-1",
+      "fidget-cube-1",
       "instagram-1",
       "logo-16",
       "logo-32",
+      "logo-256",
       "logo-64",
       "next-1",
-      "logo-256",
+      "submit-1",
+      "toggle-nav-close-1",
+      "twitter-1",
       "search-1",
       "shopping-cart-1",
-      "submit-1",
-      "toggle-nav-hamburger-1",
-      "toggle-nav-close-1",
-      "twitter-1"
+      "toggle-nav-hamburger-1"
     ],
     "interfaceColours": {
       "primary": 0,
@@ -683,10 +684,25 @@ const patternManifest_1523980196768 = {
       "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/footer",
       "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms",
       "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/header",
-      "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages",
       "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/photo-arrays"
     ],
-    "pages": []
+    "pages": [
+      {
+        "name": "checkout-form-page.html",
+        "namePretty": "Checkout form page",
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/pages/checkout-form-page.html"
+      },
+      {
+        "name": "homepage.html",
+        "namePretty": "Homepage",
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/pages/homepage.html"
+      },
+      {
+        "name": "product-list-page.html",
+        "namePretty": "Product list page",
+        "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/pages/product-list-page.html"
+      }
+    ]
   },
   "userPatterns": [
     {
@@ -700,13 +716,6 @@ const patternManifest_1523980196768 = {
           "filename": "call-to-action-banner",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/banners/call-to-action-banner.html",
           "localPath": "patterns/banners/call-to-action-banner.html"
-        },
-        {
-          "name": "sectional-banner",
-          "namePretty": "Sectional banner",
-          "filename": "sectional-banner",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/banners/sectional-banner.html",
-          "localPath": "patterns/banners/sectional-banner.html"
         },
         {
           "name": "top-of-checkout-page-banner",
@@ -739,13 +748,6 @@ const patternManifest_1523980196768 = {
           "filename": "call-to-action-banner",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/banners/call-to-action-banner.css",
           "localPath": "patterns/banners/call-to-action-banner.css"
-        },
-        {
-          "name": "sectional-banner",
-          "namePretty": "Sectional banner",
-          "filename": "sectional-banner",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/banners/sectional-banner.css",
-          "localPath": "patterns/banners/sectional-banner.css"
         },
         {
           "name": "top-of-page-banner",
@@ -836,13 +838,6 @@ const patternManifest_1523980196768 = {
           "localPath": "patterns/cards/accessories-icon-card.html"
         },
         {
-          "name": "accessories-info-card",
-          "namePretty": "Accessories info card",
-          "filename": "accessories-info-card",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/accessories-info-card.html",
-          "localPath": "patterns/cards/accessories-info-card.html"
-        },
-        {
           "name": "basic-card",
           "namePretty": "Basic card",
           "filename": "basic-card",
@@ -876,13 +871,6 @@ const patternManifest_1523980196768 = {
           "filename": "fidget-spinners-info-card",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/fidget-spinners-info-card.html",
           "localPath": "patterns/cards/fidget-spinners-info-card.html"
-        },
-        {
-          "name": "product-info-card",
-          "namePretty": "Product info card",
-          "filename": "product-info-card",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/cards/product-info-card.html",
-          "localPath": "patterns/cards/product-info-card.html"
         }
       ],
       "md": [
@@ -942,94 +930,81 @@ const patternManifest_1523980196768 = {
       "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms",
       "html": [
         {
+          "name": "address",
+          "namePretty": "Address",
+          "filename": "address",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/address.html",
+          "localPath": "patterns/forms/address.html"
+        },
+        {
+          "name": "apartment",
+          "namePretty": "Apartment",
+          "filename": "apartment",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/apartment.html",
+          "localPath": "patterns/forms/apartment.html"
+        },
+        {
           "name": "checkboxes",
           "namePretty": "Checkboxes",
           "filename": "checkboxes",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/checkboxes.html",
-          "localPath": "patterns/forms/checkboxes.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#404040",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "localPath": "patterns/forms/checkboxes.html"
         },
         {
           "name": "drop-downs",
           "namePretty": "Drop downs",
           "filename": "drop-downs",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/drop-downs.html",
-          "localPath": "patterns/forms/drop-downs.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#404040",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "localPath": "patterns/forms/drop-downs.html"
         },
         {
-          "name": "email-inputs",
-          "namePretty": "Email inputs",
-          "filename": "email-inputs",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/email-inputs.html",
-          "localPath": "patterns/forms/email-inputs.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#404040",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "name": "email",
+          "namePretty": "Email",
+          "filename": "email",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/email.html",
+          "localPath": "patterns/forms/email.html"
+        },
+        {
+          "name": "first-name",
+          "namePretty": "First name",
+          "filename": "first-name",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/first-name.html",
+          "localPath": "patterns/forms/first-name.html"
+        },
+        {
+          "name": "last-name",
+          "namePretty": "Last name",
+          "filename": "last-name",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/last-name.html",
+          "localPath": "patterns/forms/last-name.html"
+        },
+        {
+          "name": "postal-code",
+          "namePretty": "Postal code",
+          "filename": "postal-code",
+          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/postal-code.html",
+          "localPath": "patterns/forms/postal-code.html"
         },
         {
           "name": "radio-buttons",
           "namePretty": "Radio buttons",
           "filename": "radio-buttons",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/radio-buttons.html",
-          "localPath": "patterns/forms/radio-buttons.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#404040",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "localPath": "patterns/forms/radio-buttons.html"
         },
         {
           "name": "text-areas",
           "namePretty": "Text areas",
           "filename": "text-areas",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/text-areas.html",
-          "localPath": "patterns/forms/text-areas.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#404040",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "localPath": "patterns/forms/text-areas.html"
         },
         {
           "name": "text-inputs",
           "namePretty": "Text inputs",
           "filename": "text-inputs",
           "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/forms/text-inputs.html",
-          "localPath": "patterns/forms/text-inputs.html",
-          "readme": {
-            "background-color": "var(--color-primary)",
-            "backgroundColour": "#404040",
-            "interfaceColours": {
-              "primary": 255,
-              "opposite": 0
-            }
-          }
+          "localPath": "patterns/forms/text-inputs.html"
         }
       ],
       "md": [
@@ -1098,80 +1073,6 @@ const patternManifest_1523980196768 = {
       ]
     },
     {
-      "name": "pages",
-      "namePretty": "Pages",
-      "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages",
-      "html": [
-        {
-          "name": "checkout-form-page",
-          "namePretty": "Checkout form page",
-          "filename": "checkout-form-page",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/checkout-form-page.html",
-          "localPath": "patterns/pages/checkout-form-page.html"
-        },
-        {
-          "name": "homepage",
-          "namePretty": "Homepage",
-          "filename": "homepage",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/homepage.html",
-          "localPath": "patterns/pages/homepage.html"
-        },
-        {
-          "name": "product-details-page",
-          "namePretty": "Product details page",
-          "filename": "product-details-page",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/product-details-page.html",
-          "localPath": "patterns/pages/product-details-page.html"
-        },
-        {
-          "name": "product-list-page",
-          "namePretty": "Product list page",
-          "filename": "product-list-page",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/product-list-page.html",
-          "localPath": "patterns/pages/product-list-page.html"
-        }
-      ],
-      "md": [
-        {
-          "name": "readme",
-          "namePretty": "Readme",
-          "filename": "README",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/README.md",
-          "localPath": "patterns/pages/README.md"
-        }
-      ],
-      "css": [
-        {
-          "name": "checkout-form-page",
-          "namePretty": "Checkout form page",
-          "filename": "checkout-form-page",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/checkout-form-page.css",
-          "localPath": "patterns/pages/checkout-form-page.css"
-        },
-        {
-          "name": "homepage",
-          "namePretty": "Homepage",
-          "filename": "homepage",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/homepage.css",
-          "localPath": "patterns/pages/homepage.css"
-        },
-        {
-          "name": "product-details-page",
-          "namePretty": "Product details page",
-          "filename": "product-details-page",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/product-details-page.css",
-          "localPath": "patterns/pages/product-details-page.css"
-        },
-        {
-          "name": "product-list-page",
-          "namePretty": "Product list page",
-          "filename": "product-list-page",
-          "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/pages/product-list-page.css",
-          "localPath": "patterns/pages/product-list-page.css"
-        }
-      ]
-    },
-    {
       "name": "photo-arrays",
       "namePretty": "Photo arrays",
       "path": "/Users/jennifersommerfeld/Documents/graphic-design/web-dev-4/week-03/ecommerce-pattern-library/patterns/photo-arrays",
@@ -1224,5 +1125,5 @@ const patternManifest_1523980196768 = {
   }
 };
 
-patternBotIncludes(patternManifest_1523980196768);
+patternBotIncludes(patternManifest_1524588829861);
 }());

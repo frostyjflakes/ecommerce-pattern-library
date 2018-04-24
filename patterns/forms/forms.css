@@ -35,3 +35,7 @@ b {
 .is-validated input:invalid + label + .error-message {
   display: block;
 }
+
+.form-p {
+  color: var(--font-color-secondary);
+}
